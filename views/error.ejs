@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Error</title>
+  <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #1a2a4d, #87ceeb); /* Blue to sky blue */
+            color: #ffffff; /* White */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #ffcc00; /* Gold */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+                
+        button {
+            padding: 15px 30px; 
+            border: 2px solid #ffcc00; /* Gold */
+            border-radius: 5px;
+            font-size: 1.2em; 
+            color: #ffcc00; /* Gold */
+            background: transparent; 
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffcc00; /* Gold */
+            color: #0e1e3a; /* Dark blue */
+        }
+  </style>
+</head>
+<body>
+  <h1>Error</h1>
+  <p><%= message %></p>
+  <p><a href="/" class="button">Back to Home</a></p>
+</body>
+</html>
