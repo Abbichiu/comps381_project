@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Favorite Champion</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Favorite Champion</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #1a2a4d, #87ceeb); /* Blue to sky blue */
+            color: #ffffff; /* White */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #ffcc00; /* Gold */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+    	.button {
+            padding: 15px 30px; 
+            border: 2px solid #ffcc00; /* Gold */
+            border-radius: 5px;
+            font-size: 1.2em; 
+            color: #ffcc00; /* Gold */
+            background: transparent; 
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+            margin: 5px;
+        }
+
+    	.button:hover {
+            background-color: #ffcc00; /* Gold */
+            color: #0e1e3a; /* Dark blue */
+            text-decoration: none;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        label {
+            margin: 10px 0 5px;
+            font-size: 1.1em;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            border: 2px solid #ffcc00; /* Gold */
+            border-radius: 5px;
+            font-size: 1em;
+            width: 200px; 
+            margin-bottom: 15px; 
+            background: rgba(255, 255, 255, 0.2); 
+            color: #ffffff; /* White */
+        }
+
+        button {
+            padding: 15px 30px; 
+            border: 2px solid #ffcc00; /* Gold */
+            border-radius: 5px;
+            font-size: 1.2em; 
+            color: #ffcc00; /* Gold */
+            background: transparent; 
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffcc00; /* Gold */
+            color: #0e1e3a; /* Dark blue */
+        }
+
+        a {
+            color: #ffcc00; /* Gold */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+<body>
+  <h1>Edit Favorite Champion</h1>
+  <% if (typeof error !== 'undefined' && error) { %>
+    <p style="color: red;"><%= error %></p>
+  <% } %>
+  <form action="/favorites/edit/<%= favorite._id %>" method="post">
+    <label for="championName">Champion Name:</label>
+    <input type="text" name="championName" value="<%= favorite.championName %>" required /><br />
+
+    <label for="role">Role:</label>
+    <select name="role" required>
+      <option value="">--Select Role--</option>
+      <option value="TOP" <%= favorite.role === 'TOP' ? 'selected' : '' %>>TOP</option>
+      <option value="JG" <%= favorite.role === 'JG' ? 'selected' : '' %>>JG</option>
+      <option value="MID" <%= favorite.role === 'MID' ? 'selected' : '' %>>MID</option>
+      <option value="AD" <%= favorite.role === 'AD' ? 'selected' : '' %>>AD</option>
+      <option value="SUP" <%= favorite.role === 'SUP' ? 'selected' : '' %>>SUP</option>
+    </select><br />
+
+    <label for="notes">Notes:</label><br />
+    <textarea name="notes" rows="5"><%= favorite.notes %></textarea><br />
+    <button type="submit">Update Favorite</button>
+   <a href="/favorites" class="button">Back to Favorites</a>
+  </form>
+</body>
+</body>
+</html>
