@@ -158,10 +158,9 @@ models/User.js
 height="3.3472222222222223in"}
 
 function(s): It shows the title of the page and the buttons to perform
-register and login functions to access the
+register and login functions to access the index page.
 
-![]([https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/index.png)){width="6.267716535433071in"
-height="3.5416666666666665in"}
+![]([https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/index.png))
 
 After clicking on the login buttons, it provide the username and
 password input fields to do user authorization.If the account has not
@@ -169,26 +168,23 @@ registered ,the error message will pop up to alert the users click on
 the "Back to Home" button to do registration. the process is showed
 below:
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/register.png){width="6.267716535433071in"
-height="3.3333333333333335in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/register.png)
+
 
 After a successful login, the champion data will show in this page.If
 the user has not created the champions, the message "You have no
 favourite champions yet" will pop up and the user needs to press on the"
 Add a favorite champion" button to continue or
-logout.Y![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/login.png){width="6.267716535433071in"
-height="3.7083333333333335in"}ohjhj
+logout.
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/login.png)
 
-you have no favorite champions yet.
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)width="6.267716535433071in"
-height="3.736111111111111in"}
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd2.png)width="6.267716535433071in"
-height="3.9722222222222223in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd1.png){width="6.267716535433071in"
-height="3.513888888888889in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd2.png)
+
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd1.png)
 
 The above is the list of favorite champions recommended randomly by the
 server and each of them has its name button to let users press it to add
@@ -198,29 +194,25 @@ Favorite" button.
 
 After added the champion:
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update1.png){width="6.267716535433071in"
-height="3.9027777777777777in"}the page will provide the edit buttons to
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update1.png)
+the page will provide the edit buttons to
 update the remark notes for the champions and delete function to delete
 the champion as below:
 
 1.edit
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update2.png){width="6.267716535433071in"
-height="4.361111111111111in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update2.png)
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update3.png)media/image3.png){width="6.267716535433071in" height="3.75in"}
-
-2.delete!(https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/delete.png)){width="6.267716535433071in"
-height="4.416666666666667in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update3.png)
+2.delete
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/delete.png)
 
 3.logout
 
 Finally, if the user click on the logout button, the page will
 automatically redirect the login page.
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/logout.png){width="6.267716535433071in"
-height="4.027777777777778in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/logout.png)
 **Restful CRUD services with testing curl:**
 
 **1. Home Page:if the home page is loaded correctly as below:**
@@ -235,20 +227,15 @@ favorite champions yet.u have no favorite
 
 champions yet.You have no favorite champions ye
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl2.png){width="6.267716535433071in"
-height="4.305555555555555in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl2.png)
 **2.Register:**
 
 curl -X GET https://comps381-project-3.onrender.com/register
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl3.png){width="6.267716535433071in"
-height="2.8055555555555554in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl3.png)
 **Try registering a new user:**
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl4.png){width="6.267716535433071in"
-height="2.5555555555555554in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl4.png)
 
 curl -X POST https://comps381-project-3.onrender.com/register \\
 
@@ -264,9 +251,7 @@ exists.
 curl -X GET
 [[https://comps381-project-3.onrender.com/login]{.underline}](https://comps381-project-3.onrender.com/login)
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl5.png){width="6.267716535433071in"
-height="2.236111111111111in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl5.png)
 **Try login account:**
 
 curl -X POST https://comps381-project-3.onrender.com/login \\
@@ -279,9 +264,7 @@ curl -X POST https://comps381-project-3.onrender.com/login \\
 
 Use the cookie file from the login session
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl6.png)/image19.png){width="6.267716535433071in"
-height="0.6388888888888888in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl6.png)
 **4. View Favorites (requires user login)**
 
 curl -X GET https://comps381-project-3.onrender.com/favorites \\
@@ -290,8 +273,7 @@ curl -X GET https://comps381-project-3.onrender.com/favorites \\
 
 Use the saved cookie file from the login session
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl7.png){width="6.267716535433071in"
-height="1.6388888888888888in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl7.png)
 
 **5.Add Favorite Champion Page(require login)**
 
@@ -305,7 +287,7 @@ step2:curl -X GET https://comps381-project-3.onrender.com/favorites/add
 in step2: after it loads into the page, it will show the 5 champions in
 the selection of recommendation list randomly.
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl8.png){width="6.267716535433071in" height="4.125in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl8.png)
 
 Role: TOP/JG/MID/AD/SUP
 
@@ -329,8 +311,7 @@ curl -X GET https://comps381-project-3.onrender.com/favorites \\
 
 -b cookies.txt
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl9.png){width="6.267716535433071in"
-height="2.5555555555555554in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl9.png)
 
 **6.Edit update notes for champions:**
 
@@ -365,8 +346,7 @@ result:**
 
 curl -X GET https://comps381-project-3.onrender.com/favorites \\
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curll0.png){width="6.267716535433071in"
-height="1.7638888888888888in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curll0.png)
 
 **7.Delete the champions:**
 
@@ -392,9 +372,7 @@ https://comps381-project-3.onrender.com/favorites/delete/67447f5b81f50c5ba44490e
 
 **Step3: View the result by loaded champion page:**
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl11.png){width="6.267716535433071in"
-height="2.7083333333333335in"}
-
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl11.png)
 The Kled champion is deleted.
 
 **8.Log out:**
@@ -403,5 +381,4 @@ curl -X GET https://comps381-project-3.onrender.com/logout \\
 
 -b cookies.txt
 
-![]([media/image1.png](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl2.png)){width="6.267716535433071in"
-height="0.6111111111111112in"}
+![]([media/image1.png](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl2.png))
