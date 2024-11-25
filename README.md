@@ -228,7 +228,7 @@ height="4.027777777777778in"}
 curl -X GET
 [[https://comps381-project-3.onrender.com/]{.underline}](https://comps381-project-3.onrender.com/)
 
-YoYou hav![]((https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl1.png)){width="6.267716535433071in"
+YoYou hav![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/curl1.png{width="6.267716535433071in"
 height="4.069444444444445in"}e no
 
 favorite champions yet.u have no favorite
