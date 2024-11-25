@@ -154,14 +154,13 @@ models/User.js
 | Delete Favorite Champion | POST              | [[https://comps381-project-3.onrender.com/favorites/delete/]{.underline}](https://comps381-project-3.onrender.com/favorites/delete/6%E2%80%A6)champion_id           | Deletes a specific favorite champion.                  |
 
 1.login/register page:
-
-![](media/image9.png){width="6.267716535433071in"
+{width="6.267716535433071in"
 height="3.3472222222222223in"}
 
 function(s): It shows the title of the page and the buttons to perform
 register and login functions to access the
 
-![](media/image18.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)){width="6.267716535433071in"
 height="3.5416666666666665in"}
 
 After clicking on the login buttons, it provide the username and
