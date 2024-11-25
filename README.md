@@ -12,7 +12,7 @@ Group member:
 
 | Lee Ho Ming   | S12883890 |
 |---------------|-----------|
-|               |           |
+|Chan Shing Yau |s12890578|
 | Tan Zhi Yuan  | s12896859 |
 | Chiu Kwan Yuk | S12887330 |
 
