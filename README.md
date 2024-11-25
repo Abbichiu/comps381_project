@@ -160,7 +160,7 @@ height="3.3472222222222223in"}
 function(s): It shows the title of the page and the buttons to perform
 register and login functions to access the
 
-![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)){width="6.267716535433071in"
+![]([https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/index.png)){width="6.267716535433071in"
 height="3.5416666666666665in"}
 
 After clicking on the login buttons, it provide the username and
@@ -169,25 +169,25 @@ registered ,the error message will pop up to alert the users click on
 the "Back to Home" button to do registration. the process is showed
 below:
 
-![](media/image2.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/register.png){width="6.267716535433071in"
 height="3.3333333333333335in"}
 
 After a successful login, the champion data will show in this page.If
 the user has not created the champions, the message "You have no
 favourite champions yet" will pop up and the user needs to press on the"
 Add a favorite champion" button to continue or
-logout.Y![](media/image4.png){width="6.267716535433071in"
+logout.Y![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/login.png){width="6.267716535433071in"
 height="3.7083333333333335in"}ohjhj
 
 you have no favorite champions yet.
 
-![](media/image10.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/champion.png)width="6.267716535433071in"
 height="3.736111111111111in"}
 
-![](media/image15.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd2.png)width="6.267716535433071in"
 height="3.9722222222222223in"}
 
-![](media/image21.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/championadd1.png){width="6.267716535433071in"
 height="3.513888888888889in"}
 
 The above is the list of favorite champions recommended randomly by the
@@ -198,19 +198,19 @@ Favorite" button.
 
 After added the champion:
 
-![](media/image13.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update1.png){width="6.267716535433071in"
 height="3.9027777777777777in"}the page will provide the edit buttons to
 update the remark notes for the champions and delete function to delete
 the champion as below:
 
 1.edit
 
-![](media/image17.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update2.png){width="6.267716535433071in"
 height="4.361111111111111in"}
 
-![](media/image3.png){width="6.267716535433071in" height="3.75in"}
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/update3.png)media/image3.png){width="6.267716535433071in" height="3.75in"}
 
-2.delete![](media/image11.png){width="6.267716535433071in"
+2.delete!(https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/delete.png)){width="6.267716535433071in"
 height="4.416666666666667in"}
 
 3.logout
@@ -218,7 +218,7 @@ height="4.416666666666667in"}
 Finally, if the user click on the logout button, the page will
 automatically redirect the login page.
 
-![](media/image8.png){width="6.267716535433071in"
+![](https://github.com/Abbichiu/comps381_project/blob/main/upload%20file/logout.png){width="6.267716535433071in"
 height="4.027777777777778in"}
 
 **Restful CRUD services with testing curl:**
